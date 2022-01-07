@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="loginApp.MReg"
+             BackgroundImageSource="clean.jpg">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text= "Register" FontSize="Large" TextColor="Black" HorizontalOptions="Center"/>
+
+            <Entry Placeholder ="Enter you name" TextColor="Black" PlaceholderColor ="Gray">
+                </Entry>
+
+            <Entry Placeholder ="Enter your Surname" TextColor="Black" PlaceholderColor ="Gray"></Entry>
+            <Entry Placeholder ="Enter your email" TextColor="Black" PlaceholderColor ="Gray"></Entry>
+            <Entry Placeholder ="Enter your Phone number" TextColor="Black" PlaceholderColor ="Gray"></Entry>
+                <Entry Placeholder ="Enter your physical address" TextColor="black" PlaceholderColor ="Gray"></Entry>
+
+               
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

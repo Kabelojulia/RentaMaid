@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="loginApp.MenuDetail"
+             Title="Detail"
+           BackgroundColor="White"
+    >
+    <StackLayout Padding="10">
+
+        <Image Source="clean.jpg" WidthRequest="100" HeightRequest="200"/>
+        <Label Text="Quality On-demand" TextColor="Black" FontSize="Medium"
+        />
+
+        <Label Text="House Cleaning Services" TextColor="Black" FontSize="Large" FontAttributes="Bold"
+             />
+        <Label Text="Request a qualified. professional house cleaner using our convinient app." TextColor="Black" FontSize="Small"
+               />
+        <Image Source ="Sanitizer" VerticalOptions="Start" HorizontalOptions="Start" WidthRequest="50" HeightRequest="50"/>
+        <Label Text="COMPLETE HOUSE CLEANING" TextColor="Black" FontSize="Small" />
+        <Image Source="VERI.jpg" VerticalOptions="Start" HorizontalOptions="Start" WidthRequest="60" HeightRequest="60"></Image>
+        <Label Text="TRAINED AND VETTED CLEANERS" TextColor="Black" FontSize="Small"/>
+        <Image Source="time.jpg" VerticalOptions="Start" HorizontalOptions="Start" WidthRequest="60" HeightRequest="60"/>
+        <Label Text="ON-DEMAND OR SCHEDULED" TextColor="Black" FontSize="Small"/>
+        
+        <Label Text="Simple Booking Process" TextColor="Black" FontSize="Medium" FontAttributes="Bold"/>
+        <Label Text="Enjoy the convinience of using our easy to use mobile ap o request cleaning. Simply download the app ,follow the instructions and a cleaner will arrive in no time" TextColor="Black" FontSize="Small"/>
+
+    </StackLayout>
+</ContentPage>

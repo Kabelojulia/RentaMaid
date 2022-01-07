@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="loginApp.Registration"
+             BackgroundColor="CadetBlue">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text= "Register" FontSize="Large" TextColor="Black" HorizontalOptions="Center"/>
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Are you a maid?" TextColor="Black"></Span>
+                        <Span Text="Register here" TextColor="Black" FontAttributes="Bold" TextDecorations="Underline"></Span>
+                    </FormattedString>
+                </Label.FormattedText>
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped ="TapGestureRecognizer_Tapped"/>
+                </Label.GestureRecognizers>
+            </Label>
+
+            <Image Source="maid.jpg" WidthRequest="180" HeightRequest="180"></Image>
+
+            <Entry Placeholder ="Enter you name" TextColor="White" PlaceholderColor ="Gray"></Entry>
+            <Entry Placeholder ="Enter your Surname" TextColor="White" PlaceholderColor ="Gray"></Entry>
+            <Entry Placeholder ="Enter your email" TextColor="White" PlaceholderColor ="Gray"></Entry>
+            <Entry Placeholder ="Enter your Phone number" TextColor="White" PlaceholderColor ="Gray"></Entry>
+            <Entry Placeholder ="Enter your physical address" TextColor="White" PlaceholderColor ="Gray"></Entry>
+
+
+            <Button 
+                Text="Register"
+                BackgroundColor="Transparent"
+                CornerRadius="50"
+                BorderColor="ForestGreen"
+                BorderWidth="1.5"
+              
+                
+                ></Button>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
